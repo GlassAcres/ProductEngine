@@ -1,0 +1,58 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Product Engine",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/": {
+      "get": {
+        "description": "Root endpoint",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/get_status_messages": {
+      "get": {
+        "description": "If action fails or user requests it, respond with the most recent status messages",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "messages": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+},
+"components": {
+  "schemas": {
+    "BlankData": {
+      "type": "object",
+      "properties": {
+        "BlankElement": {
+          "type": "string",
+          "format": ""
+        },
+        
+      "required": ["BlankElement"]
+    }
+  }
+}   

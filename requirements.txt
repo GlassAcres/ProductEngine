@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+fastapi.responses 
+fastapi.staticfiles 
+pydantic
+datetime
+supabase_py 
+starlette.responses
+starlette.types
