@@ -41,10 +41,8 @@ def generate_blank_table():
         "User Needs",
         "Key Features",
         "Competitive Advantage",
-        "Development Roadmap",
         "Various Metadata Tags",
         "Tagline",
-        "Marketing Strategy",
         "Suggested Keywords",
         "General SEO Suggestions"
     ]
