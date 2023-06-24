@@ -2,25 +2,18 @@
   "schema_version": "v1",
   "name_for_human": "Product Engine",
   "name_for_model": "ProductEng",
-  "description_for_human": "Instant Product Development. Input anything and start building a comprehensive MVP.",
-  "description_for_model": "ProductEng can be called upon user request or if discussion involves development or brainstorming around a business or idea. ProductEng can serve an svg picture, generated and hosted plugin-side. After generating a report, ProductEng can be called to provide contact information for FnxPearl to make the idea a reality. ProductEng can be called in concert with a web browsing plugin in order to provide local, updated information for real-world product development.",
+  "description_for_human": "Build your dream idea into a reality.",
+  "description_for_model": "ProductEng accepts any aspect of an user's idea for a product or service and develops it into a reality. ProductEng will provide you with a blank product template that can be used to give the user a fully developed product/service/ You can use the generate_product_prototype endpoint to get a blank table from ProductEng and then you should fill it in based on the user's input.",
   "auth": {
-    "type": "none",
-    "client_url": ""
-    "scope": ""
-    "authorization_url": ""
-    "authorization_content_type": "application/json",
-    "verification_tokens": {
-        "openai": ""
-    }
+    "type": "none"
+    
 },
-
   "api": {
     "type": "openapi",
-    "url": "https://product_engine_bridge.markzahm.repl.co/openapi.json",
+    "url": "https://productengine.markzahm.repl.co/openapi.json",
     "is_user_authenticated": false
   },
-  "logo_url": "https://product_engine_bridge.markzahm.repl.co/RecombLogo.png",
+  "logo_url": "https://ProductEngine.markzahm.repl.co/RecombLogo.png",
   "contact_email": "markz@glassacres.com",
   "legal_info_url": "http://GlassAcres.com/legal"
 }
